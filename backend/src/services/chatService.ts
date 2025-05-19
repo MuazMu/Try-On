@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios from 'axios'; 
 import { v4 as uuidv4 } from 'uuid';
 import { ChatResponse, ClothingItem } from '../types';
 import { clothingService } from './clothingService';
@@ -101,7 +101,6 @@ Always be polite, helpful, and considerate. Focus on clothing recommendations an
     }
   },
 };
-
 /**
  * Parse item suggestions from AI response
  * @param responseText The full text response from the AI
