@@ -1,0 +1,1 @@
+$content = "# Frontend environment variables`n`n# API URL for backend connection`nREACT_APP_API_URL=http://localhost:5000/api`n`n# Feature flags`nREACT_APP_ENABLE_CHATBOT=true`nREACT_APP_ENABLE_SIZE_ESTIMATION=true"; Set-Content -Path .env -Value $content
